@@ -6,6 +6,8 @@ using namespace std;
 
 //Constructor
 student::student() {
+  firstName = new char[80];
+  lastName = new char[80];
   cout << "First Name of the Student: " << endl;
   cin >> firstName;
   cout << endl << "Last Name of the Student: " << endl;
